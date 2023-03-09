@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Of Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="container">
+        <section class="image-container">
+            <img src="images/firstimage.jpg" id="content1" class="active">
+            <img src="images/secondimage.jpeg" id="content2">
+            <img src="images/thirdimage.jpeg" id="content3">
+            <img src="images/fourthimage.jpeg" id="content4">
+            <img src="images/fifthimage.jpeg" id="content5">
+            <img src="images/sixthimage.jpg" id="content6">
+        </section>
+        <section class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(4)"></button>
+            <button onclick = "dot(5)"></button>
+            <button onclick = "dot(6)"></button>
+        </section>
+        <button id="prev" onclick="prev()">&lt;</button>
+        <button id="next" onclick="next()">&gt;</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
