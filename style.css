@@ -27,6 +27,7 @@ body {
     padding: 30px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
+
 .image-container {
     position: relative;
     width: 100%;
@@ -62,6 +63,7 @@ button {
     border: 3px solid #8052ec;
     background-color: transparent;
 }
+
 .dot-container button:nth-child(1) {
     background-color: #8052ec;
 }
